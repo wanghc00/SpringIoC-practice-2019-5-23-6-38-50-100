@@ -7,5 +7,6 @@
 
     <!--Code here-->
     <bean id="helloWorld" class="com.example.SpringIoCpractice.HelloWorld">
+    <property name="hello" value="Hello World!"></property>
     </bean>
 </beans>
